@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">AppPermissions</string>
-    <string name="about">about</string>
+        <string name="app_name">权限检测</string>
+    <string name="textview" />
+    <string name="todo"/>
 </resources>

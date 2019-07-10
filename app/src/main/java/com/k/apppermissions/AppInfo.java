@@ -2,14 +2,22 @@ package com.k.apppermissions;
 
 import android.graphics.drawable.Drawable;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class AppInfo {
     private Drawable app_icon;
     private String app_name;
     private String pack_name;
     private String[] appPermissions;
+    private String[] AppService;
+
+
+    public String[] getAppService() {
+        return AppService;
+    }
+
+    public void setAppService(String[] appService) {
+        AppService = appService;
+    }
 
     public AppInfo(){
         super();
@@ -46,4 +54,6 @@ public class AppInfo {
     public void setAppPermissions(String[] appPermissions) {
         this.appPermissions = appPermissions;
     }
+
+
 }
